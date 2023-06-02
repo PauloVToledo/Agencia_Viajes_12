@@ -1,11 +1,12 @@
 package org.example;
+
 public class venta {
 	private double precio;
 	private String destino;
 	private int cliente;
 	public destino venta_tiene;
 	public cliente cliente_compra;
-	public agente_Viajes venta_se_compone_de;
+	public Vendedor venta_se_compone_de;
 
 	public double getPrecio() {
 		return this.precio;
