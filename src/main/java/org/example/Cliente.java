@@ -1,12 +1,11 @@
 package org.example;
-public class Vendedor extends Persona {
+public class Cliente extends Persona {
 
-	public void vender() {
+	public void comprar() {
 		throw new UnsupportedOperationException();
 	}
 
-	public Vendedor() {
-		super();
+	public Cliente() {
 		throw new UnsupportedOperationException();
 	}
 

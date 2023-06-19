@@ -3,14 +3,13 @@ import java.util.ArrayList;
 
 public class agencia_Viajes {
 	public ArrayList<destino> tiene = new ArrayList<destino>();
-	private ArrayList<Vendedor> vendores = new ArrayList<Vendedor>();
-	private ArrayList<cliente> clientes = new ArrayList<cliente>();
+	private Persona personas;
 
 	public void generarVenta(ArrayList<venta> ventas) {
 		throw new UnsupportedOperationException();
 	}
 
-	public ArrayList<cliente> anadirCliente(cliente clientes) {
+	public ArrayList<Cliente> anadirCliente(Cliente clientes) {
 		throw new UnsupportedOperationException();
 	}
 
@@ -18,7 +17,7 @@ public class agencia_Viajes {
 		throw new UnsupportedOperationException();
 	}
 
-	public ArrayList<cliente> buscarCliente(cliente clientes) {
+	public ArrayList<Cliente> buscarCliente(Cliente clientes) {
 		throw new UnsupportedOperationException();
 	}
 
