@@ -17,4 +17,8 @@ public class Vendedor extends Persona {
 	public venta[] getVenta() {
 		return new venta[0];
 	}
+
+	public Object getRut() {
+		return null;
+	}
 }
