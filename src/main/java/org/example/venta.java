@@ -1,12 +1,16 @@
 package org.example;
-public class venta {
-	private double precio;
+public class venta extends Vendedor {
+	private int precio;
 	private String destino;
-	private int cliente;
-	public destino venta_tiene;
-	private Persona persona;
+	private String cliente;
 
-	public double getPrecio() {
+	private String agenteViaje;
+
+	public venta(String eliminarComillas, int parseInt) {
+
+	}
+
+    public double getPrecio() {
 		return this.precio;
 	}
 
@@ -14,23 +18,12 @@ public class venta {
 		return this.destino;
 	}
 
-	public void setPrecio(double precio) {
-		this.precio = precio;
-	}
+	public void Venta(int precio, String destino, String cliente, String agenteViaje) {
 
-	public void setDestino(String destino) {
-		this.destino = destino;
-	}
+		this.precio=precio;
+		this.destino=destino;
+		this.cliente=cliente;
+		this.agenteViaje=agenteViaje;
 
-	public int getCliente() {
-		return this.cliente;
-	}
-
-	public void setCliente(int cliente) {
-		this.cliente = cliente;
-	}
-
-	public void Venta(double precio, String destino, int cliente) {
-		throw new UnsupportedOperationException();
 	}
 }

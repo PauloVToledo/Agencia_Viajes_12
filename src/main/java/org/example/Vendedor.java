@@ -13,4 +13,8 @@ public class Vendedor extends Persona {
 	public String contarDinero() {
 		throw new UnsupportedOperationException();
 	}
+
+	public venta[] getVenta() {
+		return new venta[0];
+	}
 }
